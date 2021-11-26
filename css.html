@@ -1,23 +1,39 @@
 <!doctype html>
 <html>
 <head>
-  <title> CSS </title>
-  <meta charset="utf-8">
-  <style>
-    a {
-      color:green;
+ <title> CSS </title>
+ <meta charset="utf-8">
+ <style>
+   #jigum{
+     color:gray;
+   }
+   .imibom{
+     color:pink;
+   }
+   a{
+     color:green;text-decoration:none;
     }
-  </style>
+   h1 {
+     font-size:35px; border:2px red solid;
+   }
+   body {
+     text-align:center;
+   }
+ </style>
+  <!--
+  아니 왜 여기는 스타일 하고 a 했을
+  때 보라색으로 색칠이 안되지? 근데 적용은 돠네;;
+    -->
 </head>
-<body>
+ <body>
   <h1><a href="1.index.html">HOME으로 돌아가기</a></h1>
 
   <h3>더 둘러보기</h3>
- <ol>
-   <li><a href="2.html.html">HTML</a></li>
-   <li><a href="javascript.html">JAVA SCRIPT</li>
+  <ol style="width:100px;margin-left:auto;margin-right:auto;">
+    <li><a href="2.html.html" class="imibom">HTML</a></li>
+    <li><a href="css.html" class="imibom" id="jigum">CSS</a></li>
+    <li><a href="javascript.html" class="imibom">JAVA SCRIPT</a></li>
   </ol>
   <a href="https://unsplash.com" title="Free image site"><img src="coding.jpg"width=30%></a>
-
-</body>
+ </body>
 </html>
